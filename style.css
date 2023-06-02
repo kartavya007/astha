@@ -162,7 +162,7 @@ input
         height: 30vh;
         width: 30vh;
     }
-    .block3 table td 
+    .block3 table tr td 
     {
         font-size: 3vw;
     }
