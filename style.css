@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap');
+*
+{
+    margin: 0px;
+}
+body
+{
+    background-color: black;
+}
+.nav
+{
+    display: flex;
+    place-content: end;
+    place-items: end;
+    width: 98vw;
+}
+.nav select
+{
+    font-size: 1vw;
+    border-radius: 3px;
+    margin-right: 3px;
+}
+.nav a 
+{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.container
+{
+    display: grid;
+    background: url("netflix-new-animation-1920x1131.png");
+    height: 100vh;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+.header
+{
+    display: grid;
+    width: 100vw;
+    place-content: center;
+    place-items: center;
+    align-items: center;
+    color: white;
+    line-height: 10vh;
+}
+.header img
+{
+    width: 35vw;
+    height: 20vw;
+}
+.main_text
+{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 5vh;
+}
+.mid_text
+{
+    font-size: 3vh;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.sign
+{
+    margin: 2vw;
+}
+input
+{
+    background-color: transparent;
+    border: 1px solid white;
+    height: 5vh;
+    width: 15vw;
+}
+.sign a 
+{
+    background-color: red;
+    padding: 0.5vw;
+    text-decoration: none;
+    color: white;
+    margin-left: 1vw;
+}
+.block2 
+{
+    display: grid;
+    place-content: center;
+    place-items: center;
+    align-items: center;
+    color: white;
+}
+.block2 h1 
+{
+    font-size: 3vw;
+}
+.right
+{
+    display: flex;
+    place-content: end;
+    place-items: end;
+    width: 65vw;
+    margin: 1vw;
+}
+.left
+{
+    display: flex;
+    place-content: start;
+    place-items: start;
+    width: 65vw;
+    margin: 1vw;
+}
+.card
+{
+    height: 40vh;
+    width: 40vh;
+    background-color: darkblue;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    align-items: center;
+    padding: 1vw;
+    font-size: 2vh;
+    font-family: 'Merriweather Sans', sans-serif;
+    border-radius: 50px;
+}
+.header_card
+{
+    margin-bottom: 2vh;
+}
+.block3
+{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: white;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    align-items: center;
+    margin: 2vh;
+}
+.block3 table 
+{
+    width: 80vw;
+    margin: 3vh;
+    font-size: 3vh;
+}
+.block3 table tr td
+{
+    font-size: 3vh;
+    padding: 1vw;
+    border: 2px solid white;
+}
+@media screen and (max-width:800px)
+{
+    .sign
+    {
+        display: none;
+    }
+    .container
+    {
+        height: auto;
+    }
+    .header img 
+    {
+        height: 30vh;
+        width: 30vh;
+    }
+}
