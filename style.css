@@ -87,10 +87,6 @@ input
     align-items: center;
     color: white;
 }
-.block2 h1 
-{
-    font-size: 3vw;
-}
 .right
 {
     display: flex;
